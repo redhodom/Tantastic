@@ -1,0 +1,35 @@
+/* Thank You Page Styles */
+.thank-you-container {
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.thank-you-container h1 {
+    font-size: 3rem;
+    color: #5a2d8c; /* Purple color for title */
+    margin-bottom: 20px;
+}
+
+.thank-you-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.thank-you-container .return-home {
+    padding: 12px 30px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(128, 0, 128, 0.7); /* Transparent purple */
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.thank-you-container .return-home:hover {
+    background-color: rgba(128, 0, 128, 0.9); /* Darker purple on hover */
+    transform: translateY(-5px);
+}
